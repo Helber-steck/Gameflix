@@ -7,24 +7,38 @@
 }
 
 .jogando{
-margin: top 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 3.5vw;
+  font-weight: unset;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-top: 110px;
 
 }
 
 .container{
-  width: 550px;
+  width: 650px;
 }
 
 .bravo{
   max-width: 80%;
   margin-top:50px;
+  margin-left: 40px;
   
 }
 .sorriso{
   max-width: 80%;
   margin-top:50px;
+  
  }
 .olho{
   max-width: 80%;
   margin-top:50px;
+  margin-left: -40px;
 } 
+
+.logo{
+  width: 95px ;
+  margin-left: 25px;
+  margin-top: 10px;
+}
