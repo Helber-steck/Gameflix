@@ -1,4 +1,5 @@
 # Gameflix
+![perfil](https://user-images.githubusercontent.com/80336880/168639884-ca2b4ab1-5494-4a13-845c-0c12c6c92a58.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
