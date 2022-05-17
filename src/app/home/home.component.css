@@ -1,21 +1,12 @@
 .navbar-collapse{
-  background-color:#141414;     
+  background-color: transparent; 
+    
 }
 
 .navbar{
   background-color:#141414;
 }
 
-.jogando{
-  width: 100%;
-  color: #fff;
-  font-size: 3.5vw;
-  font-weight: unset;
-  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-  margin-top: 110px;
-  margin-left: -17px;
-
-}
 
 .container{
   width: 650px;
@@ -23,44 +14,24 @@
   min-height: 84px;
   min-width: 84px;
   margin-top: -50px;
-
-    
+ 
 }
-
-.bravo{
-  max-width: 80%;
-  margin-top:50px;
-  margin-left: 40px;
-  
-}
-
-.bravo:hover{
-  border: 3px rgb(255, 255, 255) solid;
-  border-radius: 5px;
-
-}
-.sorriso{
-  max-width: 80%;
-  margin-top:50px;
-  
- }
- .sorriso:hover{
-  border: 3px rgb(255, 255, 255) solid;
-  border-radius: 5px;
-  
- }
-.olho{
-  max-width: 80%;
-  margin-top:50px;
-  margin-left: -40px;
-} 
-.olho:hover{
-  border: 3px rgb(255, 255, 255) solid;
-  border-radius: 5px;
-} 
 
 .logo{
   width: 95px ;
   margin-left: 25px;
   margin-top: 10px;
 }
+
+.nav-link{
+  color: #fff;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-right : 10px;
+  font-size: 12px;
+  font-weight: 250;
+  cursor: default;
+}
+
+
+
+
