@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit } from '@angular/core';
 
   // ...
 @Component({
@@ -6,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './perfil.component.html',
   styleUrls: ['./perfil.component.css'],
 })
-export class PerfilComponent implements OnInit {
+export class PerfilComponent implements AfterViewInit {
 
-  constructor() { }
+  constructor(private elementRef: ElementRef) { }
+  ngAfterViewInit(): void {
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundImage = "url('assets/fundo.png')";
+  }
 
   ngOnInit(): void {
   }

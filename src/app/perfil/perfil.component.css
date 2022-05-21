@@ -1,10 +1,13 @@
 .navbar-collapse{
-  background-color:#141414;     
+  background-color:#141414;    
+  
 }
 
 .navbar{
   background-color:#141414;
+   
 }
+
 
 .jogando{
   width: 100%;
@@ -24,6 +27,8 @@
   min-height: 84px;
   min-width: 84px;
   margin-top: -50px;
+  
+
 
     
 }
@@ -33,6 +38,7 @@
   margin-top:50px;
   margin-left: 40px;
   
+
   
 }
 
@@ -67,6 +73,5 @@
   margin-top: 10px;
 }
 
-.fundo{
-  background-color:#141414;
-}
+
+
