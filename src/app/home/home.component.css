@@ -1,22 +1,12 @@
 .navbar-collapse{
   background-color: transparent; 
+
     
 }
 
 .navbar{
-  background-color:#141414;
+  background-color:transparent;
 }
-
-
-.container{
-  width: 650px;
-  height: 10vw;
-  min-height: 84px;
-  min-width: 84px;
-  margin-top: -50px;
- 
-}
-
 .logo{
   width: 95px ;
   margin-left: 25px;
@@ -28,9 +18,22 @@
   font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   margin-right : 10px;
   font-size: 12px;
-  font-weight: 250;
+  font-weight: 250%;
   cursor: default;
 }
+
+.icone{
+  width: 35%;
+  font-weight:250%;
+  
+}
+
+.noti{
+  width: 65%;
+  font-weight:250%;  
+}
+
+
 
 
 
