@@ -1,3 +1,4 @@
+<!--
 <div class="back">
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-container">
@@ -24,7 +25,7 @@
         <a class="nav-link active text-white" aria-current="page">Corrida</a>
       </li>
     </ul>
-    <!--Lista Icone-->
+
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav d-flex justify-content-lg-end">
         <li class="nav-item">
@@ -43,4 +44,792 @@
       </ul>
     </div>
   </nav>
+</div>
+<div class="container">
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide>
+      <div class="box">
+        <img class="box" src="assets/bravo1.png" />
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="">
+        <img class="box" src="assets/bravo1.png" />
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+</div>
+
+
+<div class="holder">
+  <div class="imagem">
+    <ng-template carouselSlide>
+      <img class="caixa1" src="assets/bravo1.png" alt="" />
+    </ng-template>
+  </div>
+  <div class="imagem" data-title="legenda # 1">
+    <ng-template carouselSlide>
+      <img class="caixa1" src="assets/bravo1.png" alt="" />
+    </ng-template>
+  </div>
+  <div class="imagem" data-title="legenda # 1">
+    <ng-template carouselSlide>
+      <img class="caixa1" src="assets/bravo1.png" alt="" />
+    </ng-template>
+  </div>
+</div>
+
+<div class="container">
+  <div
+    id="carouselExampleControls"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/bravo1.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/olho1.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="assets/bravo1.png" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container">
+  <ngx-glide>
+    <div>
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+      <img class="box" src="assets/bravo1.png" alt="" />
+    </div>
+  </ngx-glide>
+</div>
+
+<div class="container">
+  <ngx-glide>
+    <div class="container">
+      <img class="box" src="assets/bravo1.png" alt="" />
+    </div>
+    <div class="container">
+      <img class="box" src="assets/bravo1.png" alt="" />
+    </div>
+    <div class="container">
+      <img class="box" src="assets/bravo1.png" alt="" />
+    </div>
+  </ngx-glide>
+</div>
+
+<div class="container">
+  <div>Some tags before</div>
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide
+      ><img class="box" src="assets/bravo1.png" alt=""
+    /></ng-template>
+    <ng-template carouselSlide>Slide 2</ng-template>
+    <ng-template carouselSlide>Slide 3</ng-template>
+  </owl-carousel-o>
+  <div>Some tags after</div>
+</div>
+-->
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <button class="navbar-toggler d-lg-none" type="button">
+    <img src="/assets/images/hamburger.gif" alt="Menu" />
+  </button>
+
+  <a class="navbar-brand flex-grow-1" href="#">
+    <img src="assets/logo.png " class="logo" alt="Gameflix" />
+  </a>
+
+  <ul class="nav text-white d-none d-lg-flex">
+    <li class="nav-item d-xl-none">
+      <a class="nav-link active text-reset" href="#">Navegar</a>
+    </li>
+    <li class="nav-item d-xl-none">
+      <a class="nav-link text-reset" href="#">Infantil</a>
+    </li>
+    <li class="nav-item d-none d-xl-flex">
+      <a class="nav-link active text-reset" href="#">Inicío</a>
+    </li>
+    <li class="nav-item d-none d-xl-flex">
+      <a class="nav-link text-reset" href="Aventura">Aventura</a>
+    </li>
+    <li class="nav-item d-none d-xl-flex">
+      <a class="nav-link text-reset" href="#">Terror</a>
+    </li>
+    <li class="nav-item d-none d-xl-flex">
+      <a class="nav-link text-reset" href="#">Luta</a>
+    </li>
+    <li class="nav-item d-none d-xl-flex">
+      <a class="nav-link text-reset" href="#">Corrida</a>
+    </li>
+    <li class="nav-item d-none d-xl-flex">
+      <a class="nav-link text-reset" href="#">RPG</a>
+    </li>
+  </ul>
+
+  <form class="form-inline">
+    <input class="form-control" type="search" placeholder="Busca" />
+  </form>
+
+  <div class="media text-white p-2 d-none d-lg-flex">
+    <img src="assets/bravo1.png" alt="Avatar" class="mr-2" />
+    <div class="media-body">
+      <p class="h6 m-0 text-uppercase">bravo</p>
+    </div>
+  </div>
+
+  <ul class="list-unstyled font-weight-bold sidebar">
+    <li class="media media-avatar">
+      <img src="assets/images/avatar.jpg" alt="Avatar" class="mr-2" />
+      <div class="media-body">
+        <p class="h6 m-0">DJALMA SINDEAUX</p>
+        <small>Trocar de perfil</small>
+      </div>
+    </li>
+    <li class="divider"></li>
+    <li><a href="Inicio" class="text-reset">Inicio</a></li>
+    <li><a href="Minha lista" class="text-reset">Minha lista</a></li>
+    <li><a href="Aventura" class="text-reset">Séries de ação e aventura</a></li>
+    <li><a href="Terror" class="text-reset">Ação e aventura</a></li>
+    <li><a href="#" class="text-reset">Séries teen</a></li>
+    <li><a href="#" class="text-reset">Filmes africanos</a></li>
+    <li><a href="#" class="text-reset">Séries da América Latina</a></li>
+    <li><a href="#" class="text-reset">Filmes de Anime</a></li>
+  </ul>
+</nav>
+
+<div class="content-fluid">
+  <div class="row no-gutters">
+    <div class="col-12 full-banner text-white">
+      <div class="p-4 d-flex justify-content-start h-100">
+        <div>
+          <h1 class="h3">Vingadores: Ultimato</h1>
+          <small class="d-flex my-2">
+            <span class="mr-3">2019</span>
+            <span class="mr-3">12</span>
+            <span>182min</span>
+          </small>
+          <p class="d-none d-lg-block principal color-white">
+            Após Thanos eliminar metade das criaturas vivas, os Vingadores têm
+            de lidar com a perda de amigos e entes queridos. Com Tony Stark
+            vagando perdido no espaço sem água e comida, Steve Rogers e Natasha
+            Romanov lideram a resistência contra o titã louco.
+          </p>
+          <a href="#" class="btn btn-primary text-uppercase font-weight-bold"
+            >Assistir</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="Aventura">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide>
+        <div class="p-3 list-titles">
+          <h2 class="h4">Aventura</h2>
+          <div class="d-flex flex-nowrap overflow-hidden">
+            <div class="title-item">
+              <video src="#" controls muted="muted"></video>
+              <img src="assets/images/zelda.jpg" alt="Título" />
+              <div class="items">
+                <div class="left-side">
+                  <button type="button" class="btn-play">
+                    <i class="material-icons">play_arrow</i>
+                  </button>
+                  <h2>The Legend of Zelda: Breath of the Wild</h2>
+                  <ul class="infos">
+                    <li class="relevance">98% relevante</li>
+                    <li class="age age-12"></li>
+                  </ul>
+                  <ul class="categories">
+                    <li>Épico</li>
+                    <li>Jogo de Aventura</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="title-item">
+              <video src="" controls muted="muted"></video>
+
+              <img src="assets/images/colosso.jfif" alt="Título" />
+              <div class="items">
+                <div class="left-side">
+                  <button type="button" class="btn-play">
+                    <i class="material-icons">play_arrow</i>
+                  </button>
+                  <h2>Shadow of the Colossus</h2>
+                  <ul class="infos">
+                    <li class="relevance">100% relevante</li>
+                    <li class="age age-12"></li>
+                  </ul>
+                  <ul class="categories">
+                    <li>Épico</li>
+                    <li>Jogo de Aventura</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="title-item">
+              <video src="" controls muted="muted"></video>
+              <img src="assets/images/horizon.jfif" alt="Título" />
+              <div class="items">
+                <div class="left-side">
+                  <button type="button" class="btn-play">
+                    <i class="material-icons">play_arrow</i>
+                  </button>
+                  <h2>Horizon Zero Dawn</h2>
+                  <ul class="infos">
+                    <li class="relevance">98% relevante</li>
+                    <li class="age age-12"></li>
+                  </ul>
+                  <ul class="categories">
+                    <li>Épico</li>
+                    <li>jogo de Aventura</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="title-item">
+              <video src="" controls muted="muted"></video>
+              <img src="assets/images/god.jfif" alt="Título" />
+              <div class="items">
+                <div class="left-side">
+                  <button type="button" class="btn-play">
+                    <i class="material-icons">play_arrow</i>
+                  </button>
+                  <h2>God of War Ragnarök</h2>
+                  <ul class="infos">
+                    <li class="relevance">98% relevante</li>
+                    <li class="age age-12"></li>
+                  </ul>
+                  <ul class="categories">
+                    <li>Épico</li>
+                    <li>jogo de Aventura</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="title-item">
+              <video src="" controls muted="muted"></video>
+              <img src="assets/images/tomb.jfif" alt="Título" />
+              <div class="items">
+                <div class="left-side">
+                  <button type="button" class="btn-play">
+                    <i class="material-icons">play_arrow</i>
+                  </button>
+                  <h2>Tomb Raider</h2>
+                  <ul class="infos">
+                    <li class="relevance">98% relevante</li>
+                    <li class="age age-12"></li>
+                  </ul>
+                  <ul class="categories">
+                    <li>Épico</li>
+                    <li>jogo de Aventura</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="title-item">
+              <video src="#" controls muted="muted"></video>
+              <img src="assets/images/witcher.jfif" alt="Título" />
+              <div class="items">
+                <div class="left-side">
+                  <button type="button" class="btn-play">
+                    <i class="material-icons">play_arrow</i>
+                  </button>
+                  <h2>The Witcher 3: Wild Hunt</h2>
+                  <ul class="infos">
+                    <li class="relevance">98% relevante</li>
+                    <li class="age age-12"></li>
+                  </ul>
+                  <ul class="categories">
+                    <li>Épico</li>
+                    <li>jogo de Aventura</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </section>
+
+  <section id="Terror">
+    <div class="p-3 list-titles">
+      <h2 class="h4">Terror</h2>
+
+      <div class="d-flex flex-nowrap overflow-hidden">
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/Resident.jpg" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Resident Evil</h2>
+              <ul class="infos">
+                <li class="relevance">95% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Survival horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/outlast.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Outlast</h2>
+              <ul class="infos">
+                <li class="relevance">93% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Survival horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/visage.jpg" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Visage</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>psychological horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/silent.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Silent Hill</h2>
+              <ul class="infos">
+                <li class="relevance">90% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>psychological horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/aminesia.jpg" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Amnesia: The Dark Descent</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>psychological horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/alien.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Alien: Isolation</h2>
+              <ul class="infos">
+                <li class="relevance">96% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>psychological horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Luta">
+    <div class="p-3 list-titles">
+      <h2 class="h4">Luta</h2>
+
+      <div class="d-flex flex-nowrap overflow-hidden">
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/street.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Street Fighter</h2>
+              <ul class="infos">
+                <li class="relevance">95% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Jogo de luta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/mortal.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Mortal Kombat</h2>
+              <ul class="infos">
+                <li class="relevance">97% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Jogo de luta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/smash.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Super Smash Bros</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>jogo de luta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/soul.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Soulcalibur</h2>
+              <ul class="infos">
+                <li class="relevance">90% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>jogo de luta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/samurai.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Samurai Shodown</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>jogo de luta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/marvel.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Marvel VS Capcom</h2>
+              <ul class="infos">
+                <li class="relevance">96% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>jogo de luta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Continuar assistindo">
+    <div class="p-3 list-titles">
+      <h2 class="h4">
+        Continuar assistindo como
+        <span class="tex-uppercase">Bravo</span>
+      </h2>
+
+      <div class="d-flex flex-nowrap overflow-hidden">
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/aminesia.jpg" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Amnesia: The Dark Descent</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>psychological horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="#" controls muted="muted"></video>
+          <img src="assets/images/zelda.jpg" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>The Legend of Zelda: Breath of the Wild</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Épico</li>
+                <li>Jogo de Aventura</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/Resident.jpg" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Resident Evil</h2>
+              <ul class="infos">
+                <li class="relevance">95% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Survival horror</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/god.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>God of War Ragnarök</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Épico</li>
+                <li>jogo de Aventura</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+
+          <img src="assets/images/colosso.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Shadow of the Colossus</h2>
+              <ul class="infos">
+                <li class="relevance">100% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>Épico</li>
+                <li>Jogo de Aventura</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="title-item">
+          <video src="" controls muted="muted"></video>
+          <img src="assets/images/smash.jfif" alt="Título" />
+          <div class="items">
+            <div class="left-side">
+              <button type="button" class="btn-play">
+                <i class="material-icons">play_arrow</i>
+              </button>
+              <h2>Super Smash Bros</h2>
+              <ul class="infos">
+                <li class="relevance">98% relevante</li>
+                <li class="age age-12"></li>
+              </ul>
+              <ul class="categories">
+                <li>jogo de luta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="row no-gutters p-4">
+    <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#">Termos de uso</a>
+    <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#"
+      >Declaração de privacidade</a
+    >
+    <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#"
+      >Preferências de cookies</a
+    >
+    <a class="col-12 col-sm-6 col-lg-3 text-reset" href="#">Centro de ajuda</a>
+  </footer>
+  <script>
+    document.querySelectorAll(".title-item").forEach((item) => {
+      let video = item.querySelector("video");
+
+      item.addEventListener("mouseenter", (e) => {
+        video.currentTime = 0;
+        video.play();
+      });
+
+      item.addEventListener("mouseleave", (e) => {
+        video.currentTime = 0;
+        video.pause();
+      });
+
+      item.addEventListener("click", (e) => {
+        video.muted = !video.muted;
+      });
+    });
+    document
+      .querySelector(".navbar-toggler")
+      .addEventListener("click", (event) => {
+        document.querySelector(".navbar").classList.toggle("sidebar-open");
+
+        if (
+          document.querySelector(".navbar").classList.contains("sidebar-open")
+        ) {
+          let backdrop = document.createElement("div");
+          backdrop.className = "backdrop";
+          document.querySelector("body").append(backdrop);
+
+          document
+            .querySelector(".backdrop")
+            .addEventListener("click", (event) => {
+              document
+                .querySelector(".navbar")
+                .classList.remove("sidebar-open");
+              document.querySelector(".backdrop").remove();
+            });
+        } else {
+          document.querySelector(".backdrop").remove();
+        }
+      });
+  </script>
 </div>
