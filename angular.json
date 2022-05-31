@@ -109,6 +109,10 @@
               "./node_modules/owl.carousel/dist/owl.carousel.min.js",
               "node_modules/@glidejs/glide/dist/glide.min.js" ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {"baseHref":"/Gameflix/"}
         }
       }
     }
