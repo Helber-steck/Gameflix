@@ -38,7 +38,7 @@ body {
   height: 24px;
 }
 .navbar ul.sidebar {
-  color: #999898;
+  color: #ffffff;
   max-width: 250px;
   background-color: #1B1B1B!important;
   position: absolute;
@@ -76,9 +76,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
-.full-banner small {
-  color: #999898;
-}
+
 .full-banner .btn-primary {
   background-color: #E30F19;
   border-radius: 0;
@@ -89,10 +87,10 @@ body {
   min-width: 160px;
 }
 h2 {
-  color: #e5e5e5;
+  color: #ffffff;
 }
 footer {
-  color: #999898;
+  color: #ffffff;
 }
 .title-item {
   position: relative;
@@ -237,7 +235,7 @@ footer {
       min-height: 50vh;
   }
   .full-banner p {
-      color: #999898;
+      color: #ffffff;
       max-width: 50vw;
   }
   .navbar-brand.flex-grow-1 {
